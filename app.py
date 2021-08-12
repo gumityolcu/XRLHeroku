@@ -4,9 +4,6 @@ import dash
 import dash_core_components as dcc
 import dash_html_components as html
 
-import matplotlib
-
-matplotlib.use('Agg')
 
 paused = False
 action_tree_selection = 'best-strategies'
