@@ -3,21 +3,10 @@ import base64
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
-from dash.dependencies import Input, Output
-from chart_studio import plotly
-import networkx as nx
-#import numpy as np
-#import matplotlib.pyplot as plt
-#from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
 
-import keyboard
-import json
-#import time
-from collections import deque
+import matplotlib
 
-#import matplotlib
-
-#matplotlib.use('Agg')
+matplotlib.use('Agg')
 
 paused = False
 action_tree_selection = 'best-strategies'
