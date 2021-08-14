@@ -23,9 +23,9 @@ app.title = "Understanding Policies"
 
 
 
-img1 = base64.b64encode(open('action_tree.png', 'rb').read())
-img2 = base64.b64encode(open('saliency_map.png', 'rb').read())
-img3 = base64.b64encode(open('game_screen.png', 'rb').read())
+img1 = base64.b64encode(open('action_tree.gif', 'rb').read())
+img2 = base64.b64encode(open('saliency_map.gif', 'rb').read())
+img3 = base64.b64encode(open('game_screen.gif', 'rb').read())
 img4 = base64.b64encode(open('2000px-TU-Berlin-Logo.png', 'rb').read())
 
 server = app.server
