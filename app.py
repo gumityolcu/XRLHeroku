@@ -19,7 +19,7 @@ app = dash.Dash(
     __name__,
     meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1"}],
 )
-app.title = "Understanding Policies"
+app.title = "Understanding Policies of Deep Reinforcement Learning Agents"
 
 
 
@@ -45,7 +45,7 @@ app.layout = html.Div(
             [
                 html.Div(
                     [
-                        html.H4("Understanding Policies", className="app__header__title"),
+                        html.H4("Understanding Policies of Deep Reinforcement Learning Agents", className="app__header__title"),
                         html.P(
                             "A WebApp made by Galip Ümit Yolcu, Dennis Weiss and Egemen Okur to understand policies of reinforcement learning based agents.",
                             className="app__header__title--grey",
