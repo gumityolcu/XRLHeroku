@@ -123,15 +123,6 @@ html.H6("The ATARI environment offers 6 actions (joystick <-, joystick ->, no ac
                         html.Div(
                             [html.H6("Game Tree with Q-Values", className="graph__title")]
                         ),
-                        dcc.RadioItems(
-                            id='action-tree-selector',
-                            options=[
-                                {'label': 'Taken action', 'value': 'taken-action'},
-                                {'label': 'Best strategies', 'value': 'best-strategies'},
-                            ],
-                            value='taken-action',
-                            labelStyle={'display': 'inline-block', 'color': '#DED8D8',
-                                        'margin-left': '45px', 'margin-top': '15px'}),
                         html.Img(
                             src='data:image/png;base64,{}'.format(img1.decode()),
                             style={'height': '82%', 'width': '95%', 'display': 'inline-block', 'text-align': 'center', "padding": "25px 25px 0px 25px" }
